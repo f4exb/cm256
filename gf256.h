@@ -44,7 +44,7 @@
 //
 // Edit these to port to your architecture
 
-#if defined(USE_SIMD)
+#if defined(USE_SSSE3)
 
 #ifdef _MSC_VER
 
