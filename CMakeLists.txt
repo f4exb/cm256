@@ -114,6 +114,12 @@ set(cm256_HEADERS
   sse2neon.h
 )
 
+include_directories(
+    .
+    ${CMAKE_CURRENT_BINARY_DIR}
+    ${Boost_INCLUDE_DIRS}
+)
+
 add_library(cm256 SHARED
   ${cm256_SOURCES}
 )
